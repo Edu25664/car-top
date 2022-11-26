@@ -1,0 +1,13 @@
+.btn-icon {
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.btn-icon p {
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  top: 8px;
+  text-align: center;
+}
+

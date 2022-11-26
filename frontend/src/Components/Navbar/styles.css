@@ -1,0 +1,38 @@
+.nav-logo-text:hove {
+  color: #ffff;
+}
+.nav-logo-text {
+  color: #ffff;
+}
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 200px;
+  justify-content: space-between;
+}
+.main-menu a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main-menu a.active {
+  color: #ffff;
+  font-size: bold;
+}
+.main-menu a:hover {
+  color: #ffff;
+}
+.main-nav h4 {
+  margin-top: 10px;
+  color: #00285f;
+  font-weight: 700;
+}
+.main-nav {
+  min-height: 55px;
+  padding-left: 40px;
+  color: #00285f;
+}
+@media (min-width: 1280px) {
+  .main-nav h4 {
+    padding-left: 130px  ;
+  }
+}
