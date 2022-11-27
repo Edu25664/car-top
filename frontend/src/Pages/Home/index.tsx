@@ -1,5 +1,5 @@
-import MainImage from "../../assets/image/product.svg";
 import "./style.css";
+import { ReactComponent as MainImage } from "../../assets/image/product.svg";
 import ButtonIcon from "../../Components/ButtonHome";
 import "bootstrap/js/src/collapse.js";
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
         <div className="home-card">
           <div className="home-content-container">
             <div className="home-image-container">
-              <img src={MainImage} alt="nome do produto"></img>
+              <MainImage/>
             </div>
             <div className="home-text">
               <h1>O carro perfeito para você</h1>
